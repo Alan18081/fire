@@ -1,0 +1,32 @@
+@import '../vars'
+
+.offers-description
+  margin-left: 15px
+  padding-top: 40px
+
+.offers-description__title
+  font-size: 20px
+  margin-bottom: 40px
+
+.offers-description__title-blue
+  color: $blue
+
+.offers-description__title_center
+  text-align: center
+
+.offers-description__item
+  margin-bottom: 30px
+  padding-left: 50px
+  position: relative
+  line-height: 1
+  font-size: 18px
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    width: 14px
+    height: 14px
+    transform: rotate(45deg) translateY(-50%)
+    background: $gray
+    left: 0
+    top: 50%

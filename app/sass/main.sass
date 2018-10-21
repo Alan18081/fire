@@ -1,0 +1,67 @@
+@import 'vars'
+@import 'fonts'
+@import 'libs'
+
+@import './blocks/header'
+@import './blocks/logo'
+@import './blocks/menu'
+@import './blocks/phone'
+@import './blocks/main'
+@import './blocks/screen'
+@import './blocks/button'
+@import './blocks/offers-description'
+@import './blocks/offers'
+@import './blocks/title'
+@import './blocks/adv'
+@import './blocks/qualities'
+@import './blocks/btns-list'
+@import './blocks/questions'
+@import './blocks/feedback'
+@import './blocks/footer'
+@import './blocks/modal'
+
+::placeholder
+	color: $text
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+ul, li
+	list-style: none
+	padding: 0
+
+button:active, button:focus
+	outline: none
+
+@import 'media' // Always at the end

@@ -1,0 +1,20 @@
+@import '../vars'
+
+.menu__list
+  display: flex
+  align-items: center
+  list-style: none
+  justify-content: center
+  padding-left: 0
+
+.menu__item
+  margin-right: 50px
+  &:last-child
+    margin-right: 0
+
+.menu__link
+  color: $text
+  transition: all .5s ease
+  &:hover
+    color: $blue
+    text-decoration: none

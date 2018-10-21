@@ -1,0 +1,33 @@
+@import '../vars'
+
+.questions
+  margin-top: 40px
+
+.questions__item
+  display: flex
+
+.questions__item_active
+  .questions__icon
+    i:before
+      transform: rotate(45deg)
+      transition: all .5s ease
+
+.questions__icon
+  margin-right: 20px
+  i
+    font-size: 30px
+    color: $blue
+    line-height: 1
+    &:before
+      transform: rotate(0deg)
+
+.questions__head
+  cursor: pointer
+  margin-bottom: 20px
+  transition: all .5s ease
+  font-weight: 600
+  &:hover
+    color: $blue
+
+.questions__content
+  margin-bottom: 35px

@@ -1,0 +1,34 @@
+@import '../vars'
+
+.offers
+  padding-left: 54px
+
+.offers_mobile
+  padding-left: 0
+
+.offers__item
+  position: relative
+  cursor: pointer
+  margin-bottom: 30px
+  &:hover
+    .offers__overlay
+      opacity: 1
+
+.offers__overlay
+  position: absolute
+  opacity: 0
+  transition: all .5s ease
+  background: $offersBg
+  width: 100%
+  height: 100%
+  border: 5px solid $blue
+  color: #ffffff
+  font-size: 18px
+  font-weight: 500
+  display: flex
+  justify-content: center
+  align-items: center
+  text-align: center
+
+.offers__img
+  width: 100%
