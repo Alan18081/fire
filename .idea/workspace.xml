@@ -3,21 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="37c5ab82-a716-4322-85c6-48e35a4e73fb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/blocks/adv.min.css" afterPath="$PROJECT_DIR$/app/css/blocks/adv.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/blocks/feedback.min.css" afterPath="$PROJECT_DIR$/app/css/blocks/feedback.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/blocks/menu.min.css" afterPath="$PROJECT_DIR$/app/css/blocks/menu.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/blocks/qualities.min.css" afterPath="$PROJECT_DIR$/app/css/blocks/qualities.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/blocks/screen.min.css" afterPath="$PROJECT_DIR$/app/css/blocks/screen.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/blocks/title.min.css" afterPath="$PROJECT_DIR$/app/css/blocks/title.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/blocks/adv.sass" afterPath="$PROJECT_DIR$/app/sass/blocks/adv.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/blocks/feedback.sass" afterPath="$PROJECT_DIR$/app/sass/blocks/feedback.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/blocks/menu.sass" afterPath="$PROJECT_DIR$/app/sass/blocks/menu.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/blocks/qualities.sass" afterPath="$PROJECT_DIR$/app/sass/blocks/qualities.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/blocks/screen.sass" afterPath="$PROJECT_DIR$/app/sass/blocks/screen.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/blocks/title.sass" afterPath="$PROJECT_DIR$/app/sass/blocks/title.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="141" column="53" lean-forward="false" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
+            <state relative-caret-position="391">
+              <caret line="142" column="10" lean-forward="true" selection-start-line="142" selection-start-column="10" selection-end-line="142" selection-end-column="10" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -81,6 +69,16 @@
                 <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/sass/blocks/screen.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +148,6 @@
         <option value="$PROJECT_DIR$/gh-pages.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/sass/blocks/feedback.sass" />
-        <option value="$PROJECT_DIR$/app/sass/blocks/screen.sass" />
         <option value="$PROJECT_DIR$/app/sass/blocks/menu.sass" />
         <option value="$PROJECT_DIR$/app/sass/blocks/title.sass" />
         <option value="$PROJECT_DIR$/app/sass/blocks/qualities.sass" />
@@ -158,6 +155,7 @@
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/sass/blocks/adv.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/blocks/screen.sass" />
       </list>
     </option>
   </component>
@@ -654,6 +652,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -756,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/blocks/screen.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/blocks/title.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -824,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="141" column="53" lean-forward="false" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
+        <state relative-caret-position="391">
+          <caret line="142" column="10" lean-forward="true" selection-start-line="142" selection-start-column="10" selection-end-line="142" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -870,6 +862,14 @@
             <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/blocks/screen.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
